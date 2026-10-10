@@ -45,7 +45,15 @@ skills/scientific-chinese-explanation/
 
 这是本地工作流的通用公开版，保留了方法解释、图表叙述与交付检查要求，并纳入了人工修改经验。私人路径、聊天记录、项目数据、内部实现信息及机构专属模板没有包含在仓库中。
 
-主要结构和写作协议由本项目整理。有限参考的社区技能、参考范围和许可证信息列在 [ATTRIBUTION.md](ATTRIBUTION.md) 中；没有把第三方技能正文、脚本或模板打包进来。
+主要结构和写作协议由本项目整理，同时参考了以下社区技能中的部分思路：
+
+| 社区技能与作者 | 本项目参考的内容 | 上游许可证 |
+|---|---|---|
+| [Scientific Visualization — K-Dense](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md) | 保留数据变换关系、准确命名图中区间、检查最终图件 | 技能入口标记为 MIT |
+| [中文科研 Humanizer — Xuanjin Zhu](https://github.com/XuanjinZhu/zh-scientific-humanizer) | 改善中文表达，同时保持专业术语、数字和证据含义 | [MIT-0](https://github.com/XuanjinZhu/zh-scientific-humanizer/blob/main/LICENSE) |
+| [Data Storytelling — kuhung](https://github.com/kuhung/weread-book-skills/blob/main/skills/data-storytelling/SKILL.md) | 将比较对象、数据与结论组织成可理解的叙述 | [MIT](https://github.com/kuhung/weread-book-skills/blob/main/LICENSE) |
+
+感谢上述作者的公开分享。这些参考主要体现在 `scientific-chinese-explanation` 的来源记录中；本仓库没有再分发第三方技能的正文、脚本或模板。详细来源及许可核对说明见 [ATTRIBUTION.md](ATTRIBUTION.md)。
 
 本仓库原创内容采用 [MIT License](LICENSE)。被链接的外部项目仍遵循各自许可证。
 
