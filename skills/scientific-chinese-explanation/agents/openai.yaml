@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文科研报告写作"
+  short_description: "结合实际方法、图表与数值，把名词、工作流程和科研结果写成连续清楚的中文"
+  default_prompt: "使用 $scientific-chinese-explanation，把指定研究材料写成中文报告，讲清方法步骤、图表差异、最终选择和科学认识。"

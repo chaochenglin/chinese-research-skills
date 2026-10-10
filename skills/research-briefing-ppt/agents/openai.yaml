@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文ZH | 科研汇报PPT制作"
+  short_description: "按研究问题组织方法、图表和结论，把科研汇报讲清楚并交付可编辑PPT"
+  default_prompt: "使用 $research-briefing-ppt，根据指定资料制作科研汇报，讲清目的、方法选择和结果，并按我的模板与字号要求交付。"
